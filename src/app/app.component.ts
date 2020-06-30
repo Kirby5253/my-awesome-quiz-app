@@ -9,7 +9,7 @@ import { Quiz, Answers, Choice } from './quiz.model';
 })
 export class AppComponent {
 	private answers: Answers;
-	private quiz: Quiz;
+	public quiz: Quiz;
 	private currentQuestionIndex: number;
 	private showResults = false;
 
