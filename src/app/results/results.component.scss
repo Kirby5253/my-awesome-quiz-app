@@ -1,0 +1,43 @@
+.results {
+  display: flex;
+  padding: 50px;
+  background-color: #294629;
+  color: white;
+  flex-direction: column;
+  min-width: max-content;
+  border-radius: 10px;
+}
+
+.results-title {
+  text-align: center;
+  font-size: xx-large;
+  margin-bottom: 30px;
+}
+
+.results-button {
+  margin-top: 20px;
+}
+
+.answers,
+.incorrect {
+  margin: 10px;
+  font-size: large;
+  color: red;
+}
+
+.correct,
+.is-correct {
+  color: rgb(23, 235, 23);
+  font-size: 18px;
+}
+
+.is-incorrect {
+  color: red;
+  font-size: 18px;
+}
+
+.results-key {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 33px;
+}

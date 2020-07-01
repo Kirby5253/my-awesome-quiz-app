@@ -1,0 +1,46 @@
+.welcome-title__header {
+  text-align: center;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.welcome-title__subtitle {
+  text-align: center;
+}
+
+.welcome-page {
+  display: grid;
+  justify-items: center;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.welcome-card {
+  height: 130px;
+  width: 200px;
+  margin: 10px;
+  background-color: rgb(41, 70, 41);
+  color: white;
+}
+
+.quiz-selection {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: rgb(108, 168, 102);
+  border-radius: 6px;
+}
+
+@media all and (max-width: 500px) {
+  .welcome-page {
+    /* Changes grid to 1 column */
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Allows grid to shrink fluidly as screen size gets smaller */
+@media all and (min-width: 500px) and (max-width: 750px) {
+  .welcome-page {
+    grid-template-columns: 1fr 1fr;
+  }
+}
