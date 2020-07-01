@@ -1,0 +1,16 @@
+<h1 class="welcome-title__header">Welcome to Kirby's Quiz App!</h1>
+<h2 class="welcome-title__subtitle">Select a quiz to test your skills.</h2>
+<div class="welcome-page">
+
+  <div class="quiz-group" *ngFor="let q of quizArray">
+    <mat-card class="welcome-card">
+      <mat-card-title>{{q.label}}</mat-card-title>
+      <mat-card-content>{{q.description}}</mat-card-content>
+      <mat-card-actions>
+        <button class="mat-stroked-button quiz-selection" routerLink="/{{q.name}}">Select this Quiz
+        </button>
+      </mat-card-actions>
+
+    </mat-card>
+  </div>
+</div>

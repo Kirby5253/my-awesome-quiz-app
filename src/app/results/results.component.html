@@ -1,0 +1,17 @@
+<div class="results">
+  <h2 class="results-title">Results</h2>
+  <div class="results-key">
+    (<span class="is-correct results-key__item">
+      Correct
+    </span>/
+    <span class="is-incorrect results-key__item">
+      Incorrect
+    </span>)
+  </div>
+  <div class="answer-results">
+    <div class="answers" *ngFor="let a of answers.values" [ngClass]="{correct: a.correct}">
+      {{a.value}}
+    </div>
+  </div>
+  <button routerLink="/welcome" class="results-button">Choose another quiz</button>
+</div>
