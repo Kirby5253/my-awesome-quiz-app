@@ -1,5 +1,10 @@
 {
   "cSpell.words": [
-    "labradoodle"
+    "include",
+    "labradoodle",
+    "mixins"
+  ],
+  "cSpell.ignoreWords": [
+    "include"
   ]
 }
