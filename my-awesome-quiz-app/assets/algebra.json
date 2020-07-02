@@ -1,0 +1,47 @@
+[
+	{
+		"label": "Evaluate 7m + 3mn when m = 8 and n = 14 ",
+		"choices": [
+			{ "value": "84", "correct": false },
+			{ "value": "196", "correct": false },
+			{ "value": "392", "correct": true },
+			{ "value": "168", "correct": false }
+		]
+	},
+	{
+		"label": "Simplify: 675 ÷ (6 + 9 ÷ 3) ",
+		"choices": [
+			{ "value": "15", "correct": false },
+			{ "value": "75", "correct": true },
+			{ "value": "9", "correct": false },
+			{ "value": "225", "correct": false }
+		]
+	},
+	{
+		"label": "Solve: 3x + 17 – 5x = 12 – (6x + 3)",
+		"choices": [
+			{ "value": "-2", "correct": true },
+			{ "value": "-6", "correct": false },
+			{ "value": "4", "correct": false },
+			{ "value": "2", "correct": false }
+		]
+	},
+	{
+		"label": "You and three friends are eating a pizza with 12 pieces. Each person eats the same number of pieces.Let x represent the number of pieces each person eats. Which of the following equations is an algebraic model  the situation?",
+		"choices": [
+			{ "value": "Not Enough Information", "correct": false },
+			{ "value": "1/4x = 12", "correct": false },
+			{ "value": "3x = 12", "correct": false },
+			{ "value": "4x = 12", "correct": true }
+		]
+	},
+	{
+		"label": "Which of the following is the least?",
+		"choices": [
+			{ "value": ".273", "correct": false },
+			{ "value": "1/4", "correct": false },
+			{ "value": "3/8", "correct": false },
+			{ "value": "11%", "correct": true }
+		]
+	}
+]
